@@ -1,0 +1,468 @@
+/* Add application styles & imports to this file! */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'amatic sc', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+/* <--------  DIV PROJETOS  -------->  */
+
+.titulo-nav {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  top: 0;
+  height: 10vh;
+  font-size: 8vh;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: rgb(109, 109, 109);
+}
+
+/* <------------ MENU CAROUSEL --------> */
+
+.container {
+  position: relative;
+  top: 50px;
+}
+.titulo-nav {
+  position: relative;
+  top: 0;
+  display: flex;
+  background-color: #005c99;
+  color: white;
+}
+
+.carousel
+  > input[type='radio']:nth-child(5):checked
+  ~ .carousel__next
+  > label:nth-child(1),
+.carousel
+  > input[type='radio']:nth-child(5):checked
+  ~ .carousel__prev
+  > label:nth-child(4),
+.carousel
+  > input[type='radio']:nth-child(4):checked
+  ~ .carousel__next
+  > label:nth-child(5),
+.carousel
+  > input[type='radio']:nth-child(4):checked
+  ~ .carousel__prev
+  > label:nth-child(3),
+.carousel
+  > input[type='radio']:nth-child(3):checked
+  ~ .carousel__next
+  > label:nth-child(4),
+.carousel
+  > input[type='radio']:nth-child(3):checked
+  ~ .carousel__prev
+  > label:nth-child(2),
+.carousel
+  > input[type='radio']:nth-child(2):checked
+  ~ .carousel__next
+  > label:nth-child(3),
+.carousel
+  > input[type='radio']:nth-child(2):checked
+  ~ .carousel__prev
+  > label:nth-child(1),
+.carousel
+  > input[type='radio']:nth-child(1):checked
+  ~ .carousel__next
+  > label:nth-child(2),
+.carousel
+  > input[type='radio']:nth-child(1):checked
+  ~ .carousel__prev
+  > label:nth-child(5) {
+  opacity: 1 !important;
+  z-index: 0; /* Z INDEX DAS SETAS DO MENU CAROUSEL */
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  background: #fcfcfc;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  min-width: 100%;
+  margin: 50px auto;
+}
+
+.carousel {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.carousel > input[type='radio'] {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  top: 0;
+}
+.carousel > input[type='radio']:checked ~ .carousel__items .carousel__item,
+.carousel > input[type='radio']:checked ~ .carousel__prev > label,
+.carousel > input[type='radio']:checked ~ .carousel__next > label {
+  opacity: 0;
+}
+.carousel
+  > input[type='radio']:nth-child(1):checked
+  ~ .carousel__items
+  .carousel__item:nth-child(1) {
+  opacity: 1;
+}
+.carousel
+  > input[type='radio']:nth-child(1):checked
+  ~ .carousel__nav
+  > label:nth-child(1) {
+  background: #ccc;
+  cursor: default;
+  pointer-events: none;
+}
+.carousel
+  > input[type='radio']:nth-child(2):checked
+  ~ .carousel__items
+  .carousel__item:nth-child(2) {
+  opacity: 1;
+}
+.carousel
+  > input[type='radio']:nth-child(2):checked
+  ~ .carousel__nav
+  > label:nth-child(2) {
+  background: #ccc;
+  cursor: default;
+  pointer-events: none;
+}
+.carousel
+  > input[type='radio']:nth-child(3):checked
+  ~ .carousel__items
+  .carousel__item:nth-child(3) {
+  opacity: 1;
+}
+.carousel
+  > input[type='radio']:nth-child(3):checked
+  ~ .carousel__nav
+  > label:nth-child(3) {
+  background: #ccc;
+  cursor: default;
+  pointer-events: none;
+}
+.carousel
+  > input[type='radio']:nth-child(4):checked
+  ~ .carousel__items
+  .carousel__item:nth-child(4) {
+  opacity: 1;
+}
+.carousel
+  > input[type='radio']:nth-child(4):checked
+  ~ .carousel__nav
+  > label:nth-child(4) {
+  background: #ccc;
+  cursor: default;
+  pointer-events: none;
+}
+.carousel
+  > input[type='radio']:nth-child(5):checked
+  ~ .carousel__items
+  .carousel__item:nth-child(5) {
+  opacity: 1;
+}
+.carousel
+  > input[type='radio']:nth-child(5):checked
+  ~ .carousel__nav
+  > label:nth-child(5) {
+  background: #ccc;
+  cursor: default;
+  pointer-events: none;
+}
+.carousel__items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+  height: 750px;
+  position: relative;
+}
+.carousel__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s;
+}
+.carousel__item img {
+  width: 100%;
+  vertical-align: middle;
+}
+.carousel__prev > label,
+.carousel__next > label {
+  border: 0px solid rgb(7, 7, 7);
+  border-radius: 0%;
+  cursor: pointer;
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 90%;
+  transition: all 0.5s ease;
+  opacity: 0;
+  z-index: -1;
+}
+.carousel__prev > label:hover,
+.carousel__prev > label:focus,
+.carousel__next > label:hover,
+.carousel__next > label:focus {
+  opacity: 0.5 !important;
+}
+.carousel__prev > label:before,
+.carousel__prev > label:after,
+.carousel__next > label:before,
+.carousel__next > label:after {
+  content: '';
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
+.carousel__prev > label:before,
+.carousel__next > label:before {
+  background: linear-gradient(
+      to top,
+      rgb(7, 7, 7) 0%,
+      rgb(7, 7, 7) 10%,
+      rgba(51, 51, 51, 0) 10%
+    ),
+    linear-gradient(
+      to left,
+      rgb(7, 7, 7) 0%,
+      rgb(7, 7, 7) 10%,
+      rgba(51, 51, 51, 0) 10%
+    );
+  width: 60%;
+  height: 60%;
+  top: 20%;
+}
+.carousel__prev > label {
+  left: 2%;
+}
+.carousel__prev > label:before {
+  left: 35%;
+  top: -650px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.carousel__next > label {
+  right: 2%;
+}
+.carousel__next > label:before {
+  left: 10%;
+  top: -650px;
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+}
+.carousel__nav {
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  z-index: -1;
+}
+.carousel__nav > label {
+  border: 1px solid #fff;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 0.125%;
+  width: 20px;
+  height: 20px;
+}
+
+/* <------------------ Footer ------------------>*/
+
+.footer {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #005c99;
+}
+
+/* <------------------ Responsivo ------------------>*/
+
+@media (max-width: 321px) {
+  .titulo-nav {
+    size: 10px;
+  }
+}
+
+@media (max-width: 376px) {
+  .titulo-nav {
+    height: 16vh;
+    top: -39px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    width: 100%;
+    align-items: center;
+  }
+  .mySlides1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+  }
+
+  .mySlides2 {
+    z-index: -1;
+  }
+
+  .mySlides3 {
+    z-index: -1;
+  }
+}
+
+@media (max-width: 426px) {
+  .menu {
+    height: 100%;
+    background-color: white;
+    color: white;
+  }
+  .titulo-nav {
+    font-size: 48px;
+  }
+  .slides {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+  }
+  .mySlides1 {
+    position: relative;
+    left: 40px;
+    width: 200px;
+  }
+
+  .mySlides2 {
+    position: absolute;
+    right: 281px;
+    width: 200px;
+  }
+
+  .mySlides3 {
+    z-index: -1;
+    width: 0px;
+  }
+
+  .slider-button-arrow-previous {
+    width: 40px;
+    top: 50%;
+  }
+  .slider-button-arrow-next {
+    width: 40px;
+  }
+  .carousel__prev {
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    height: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu {
+    height: 400%;
+    background-color: white;
+    color: white;
+  }
+  .social-media {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    margin-top: 0;
+  }
+  .card-container {
+    flex-direction: column;
+  }
+  .container .card-container:nth-child(1),
+  .container .card-container:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+  .card {
+    height: 250px;
+    width: 250px;
+  }
+  .card2 {
+    height: 250px;
+    width: 250px;
+  }
+  .card3 {
+    height: 250px;
+    width: 250px;
+  }
+  .card-text {
+    width: 90%;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .card:hover > .card-wrapper::before {
+    height: 190px;
+    width: 190px;
+  }
+  .slider-nav {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1444px) {
+  .slides {
+    width: 1444px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .slider-nav {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
