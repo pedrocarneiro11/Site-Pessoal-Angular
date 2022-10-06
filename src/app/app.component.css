@@ -13,3 +13,7 @@ container {
   align-items: center;
   margin: 3rem 0;
 }
+app-carousel-menu{
+  width: 100%;
+  display: flex;
+}

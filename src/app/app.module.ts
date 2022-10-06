@@ -9,11 +9,12 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { CardLinkedinComponent } from './container/card-linkedin/card-linkedin.component'
 import { cardGithub } from './container/cardGithub/cardGithub.component';
 import { cardInstagram } from './container/cardInstagram/cardInstagram.component';
+import { CarouselMenuComponent } from './carousel-menu/carousel-menu.component';
 
 
 @NgModule({
   imports: [BrowserModule, FormsModule, NoopAnimationsModule],
-  declarations: [AppComponent, HelloComponent, HeaderWrapper, container, cardGithub, CardLinkedinComponent, cardInstagram],
+  declarations: [AppComponent, HelloComponent, HeaderWrapper, container, cardGithub, CardLinkedinComponent, cardInstagram, CarouselMenuComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
