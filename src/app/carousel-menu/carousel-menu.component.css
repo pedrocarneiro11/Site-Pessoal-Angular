@@ -9,21 +9,32 @@
   margin: 0;
   color: #fff;
 }
+h1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family:'amatic sc', sans-serif;
+  font-size: 50px;
+  position: relative;
+}
 
 body {
   margin: 0;
-  background-color: #212123;
-  height: 220px;
+  background: linear-gradient(-45deg, #000805, #031866, #031866, #000805);
+  height: 290px;
   width: 100%;
 }
 
 .conteudo {
+  position: relative;
   margin-left: 5vw;
   margin-right: 5vw;
   width: 90vw;
 }
 
 .carrousel {
+  position: relative;
   margin-top: 10px;
   display: grid;
   grid-auto-flow: column;
