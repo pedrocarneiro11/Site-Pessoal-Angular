@@ -37,6 +37,13 @@ body {
   background-color: transparent;
 }
 
+.ButtonLeft:active{
+  scale: 0.9;
+}
+.ButtonRight:active{
+  scale: 0.9;
+}
+
 .ButtonRight{
   position: relative;
   top:0;
