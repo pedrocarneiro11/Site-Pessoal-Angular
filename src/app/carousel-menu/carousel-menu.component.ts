@@ -9,6 +9,13 @@ export class CarouselMenuComponent implements OnInit {
 
   constructor() { }
 
+  ScrolltoLeft() {
+
+  }
+  ScrolltoRight() {
+
+  }
+
   ngOnInit(): void {
   }
 

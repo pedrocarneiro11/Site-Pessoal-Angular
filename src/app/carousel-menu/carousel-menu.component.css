@@ -17,6 +17,7 @@ h1{
   font-family:'amatic sc', sans-serif;
   font-size: 50px;
   position: relative;
+  width: 100%;
 }
 
 body {
@@ -26,8 +27,48 @@ body {
   width: 100%;
 }
 
+.ButtonLeft{
+  position: relative;
+  top:0;
+  left: -65%;
+  height: 80px;
+  width: 30px;
+  color: white;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.ButtonRight{
+  position: relative;
+  top:0;
+  right:35%;
+  height: 80px;
+  width: 30px;
+  color: white;
+  background-color: transparent;
+}
+
+.ButtonLeft:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+.ButtonRight:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.titulo{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+
 .conteudo {
   position: relative;
+  top:0;
   margin-left: 5vw;
   margin-right: 5vw;
   width: 90vw;
@@ -93,6 +134,12 @@ body {
 
 .card:nth-child(6) {
   background-image: url("./portfolio/ToDoList.JPG");
+  background-position: center top;
+  background-size: 100% auto;
+}
+
+.card:nth-child(7) {
+  background-image: url("./portfolio/BuzzfeedQuiz.JPG");
   background-position: center top;
   background-size: 100% auto;
 }
