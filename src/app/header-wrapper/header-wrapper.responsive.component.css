@@ -3,11 +3,11 @@
 
 @media only screen and (min-width : 768px) and (max-width: 1023px) {
   h1{
-    font-size: 110px;
+    font-size: 70px;
   }
 
   h2{
-    font-size: 60px;
+    font-size: 25px;
   }
 
   .social-media {
