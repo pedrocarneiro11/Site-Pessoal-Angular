@@ -1,12 +1,12 @@
 
 /* Menu Hamburguer */
 
-.checkbox-container { /* LEVAR */
+.checkbox-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.checkbox { /* LEVAR */
+.checkbox {
   height: 100px;
   width: 100px;
   position: absolute;
@@ -18,7 +18,7 @@
   z-index: 9999;
   transition: 400ms ease-in-out 0s;
 }
-.checkbox .trace { /* LEVAR */
+.checkbox .trace {
   background-color: white;
   width: 50px;
   height: 2px;
@@ -26,26 +26,26 @@
   border-radius: 4px;
   transition: 0.5s ease-in-out;
 }
-.checkbox .trace:nth-child(1) { /* LEVAR */
+.checkbox .trace:nth-child(1) {
   top: 26px;
   transform: rotate(0);
 }
-.checkbox .trace:nth-child(2) { /* LEVAR */
+.checkbox .trace:nth-child(2) {
   top: 46px;
   transform: rotate(0);
 }
-.checkbox .trace:nth-child(3) { /* LEVAR */
+.checkbox .trace:nth-child(3) {
   top: 66px;
   transform: rotate(0);
 }
 
-#toggle { /* LEVAR */
+#toggle {
   display: none;
 }
 
 /* Menu */
 
-.menu { /* LEVAR */
+.menu {
   position: absolute;
   top: 28px;
   right: 30px;
@@ -58,7 +58,7 @@
   z-index: -1;
   transition: 400ms ease-in-out 0s;
 }
-.menu-items { /* LEVAR */
+.menu-items {
   position: fixed;
   top: 0;
   left: 0;
@@ -72,10 +72,10 @@
   visibility: hidden;
   transition: 400ms ease-in-out 0;
 }
-.menu-items ul { /* LEVAR */
+.menu-items ul {
   list-style-type: none;
 }
-.menu-items ul li a { /* LEVAR */
+.menu-items ul li a {
   color: #085071;
   margin: 10px 0;
   text-decoration: none;
@@ -86,31 +86,31 @@
 
 /* Animacao Menu */
 
-#toggle:checked + .checkbox .trace:nth-child(1) { /* LEVAR */
+#toggle:checked + .checkbox .trace:nth-child(1) {
   background-color: #085071;
   transform: rotate(45deg);
   top: 47px;
 }
-#toggle:checked + .checkbox .trace:nth-child(2) { /* LEVAR */
+#toggle:checked + .checkbox .trace:nth-child(2) {
   transform: translateX(-100px);
   width: 30px;
   visibility: hidden;
   opacity: 0;
 }
-#toggle:checked + .checkbox .trace:nth-child(3) { /* LEVAR */
+#toggle:checked + .checkbox .trace:nth-child(3) {
   background-color: #085071;
   transform: rotate(-45deg);
   top: 48px;
 }
 
-#toggle:checked + .checkbox { /* LEVAR */
+#toggle:checked + .checkbox {
   background-color: white;
 }
-#toggle:checked ~ .menu { /* LEVAR */
+#toggle:checked ~ .menu {
   box-shadow: 0px 0px 0px 100vmax white;
   z-index: 1;
 }
-#toggle:checked ~ .menu-items { /* LEVAR */
+#toggle:checked ~ .menu-items {
   visibility: visible;
   opacity: 1;
 }
