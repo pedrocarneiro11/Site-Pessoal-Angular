@@ -11,11 +11,13 @@ import { cardGithub } from './container/cardGithub/cardGithub.component';
 import { cardInstagram } from './container/cardInstagram/cardInstagram.component';
 import { CarouselMenuComponent } from './carousel-menu/carousel-menu.component';
 import { FooterComponent } from './footer/footer.component';
+import { MenuComponent } from './header-wrapper/menu/menu.component';
+
 
 
 @NgModule({
   imports: [BrowserModule, FormsModule, NoopAnimationsModule],
-  declarations: [AppComponent, HelloComponent, HeaderWrapper, container, cardGithub, CardLinkedinComponent, cardInstagram, CarouselMenuComponent, FooterComponent],
+  declarations: [AppComponent, HelloComponent, HeaderWrapper, container, cardGithub, CardLinkedinComponent, cardInstagram, CarouselMenuComponent, FooterComponent, MenuComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
