@@ -1,13 +1,13 @@
 
 /* <----------- RESPONSIVO -----------------> */
 
-@media only screen and (min-width : 768px) and (max-width: 1023px) {
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
   h1{
     font-size: 70px;
   }
 
   h2{
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .social-media {
@@ -24,4 +24,55 @@
     font-size: 45px;
   }
 }
+
+/* ------ RESPONSIVO ---  */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 100px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .social-media a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 425px) {
+
+  h1{
+    font-size: 100px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .social-media a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    font-size: 45px;
+  }
+}
+
+
 

@@ -30,7 +30,7 @@ body {
 .ButtonLeft{
   position: relative;
   top:0;
-  left: -65%;
+  left: -73%;
   height: 80px;
   width: 30px;
   color: white;
@@ -47,7 +47,7 @@ body {
 .ButtonRight{
   position: relative;
   top:0;
-  right:35%;
+  right:27%;
   height: 80px;
   width: 30px;
   color: white;
