@@ -9,3 +9,23 @@
     background-color: transparent;
   }
 }
+@media only screen and (min-width : 430px) and (max-width : 769px) {
+  .ButtonLeft{
+    position: relative;
+    top:0;
+    left: -80%;
+    height: 80px;
+    width: 30px;
+    color: white;
+    background-color: transparent;
+  }
+  .ButtonRight{
+    position: relative;
+    top:0;
+    right: 20%;
+    height: 80px;
+    width: 30px;
+    color: white;
+    background-color: transparent;
+  }
+}

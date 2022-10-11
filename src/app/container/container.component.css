@@ -27,6 +27,12 @@
     font-family: sans-serif;
     letter-spacing: 1px;
   }
+  .card-text3 {
+    color: rgb(109, 109, 109);
+    width: 40%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
 
   cardLinkedin{
     position: relative;
@@ -85,9 +91,4 @@
     opacity: 1;
     width: 350px;
     height: 250px;
-  }
-
-
-  @media only screen  and (min-width : 768px) {
-
   }

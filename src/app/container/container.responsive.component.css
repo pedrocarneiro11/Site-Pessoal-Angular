@@ -1,0 +1,30 @@
+@media only screen and (min-width : 430px) and (max-width : 769px) {
+  .card-text {
+    position: relative;
+    top: -20px;
+    width: 28%;
+  }
+
+  cardGithub{
+    position: relative;
+    top: -35px;
+  }
+
+  .card-text2{
+    bottom: -21px;
+    position: relative;
+    top: 19%;
+    left: 60%;
+    width: 35%;
+  }
+
+  cardLinkedin{
+    left: -260px;
+  }
+
+  .card-text3 {
+    position: relative;
+    top: 15px;
+    width: 28%;
+  }
+}

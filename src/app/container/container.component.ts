@@ -4,7 +4,7 @@ import { cardGithub } from './cardGithub/cardGithub.component';
 @Component({
   selector: 'container',
   templateUrl: './container.component.html',
-  styleUrls: ['./container.component.css'],
+  styleUrls: ['./container.component.css', './container.responsive.component.css'],
 })
 
 export class container {
