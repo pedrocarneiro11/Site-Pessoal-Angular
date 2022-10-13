@@ -90,5 +90,47 @@
   }
 }
 
+/* ------ RESPONSIVO ---  */
+@media only screen and (min-width : 325px) and (max-width : 379px) {
+
+  .header{
+    margin-right: 0;
+    width: 100vw;
+  }
+  app-menu{
+    position: absolute;
+    top: -5px;
+    right: 0;
+  }
+
+  h1{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .social-media a {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 35px;
+    font-size: 30px;
+  }
+}
+
 
 

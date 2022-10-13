@@ -102,4 +102,81 @@
 
 
 
+} /* OK */
+
+
+@media only screen and (min-width : 325px) and (max-width : 379px) {
+
+  .card-container-right {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-text {
+    position: relative;
+    left: 5px;
+    top: -30px;
+    width: 90vw;
+    justify-content: center;
+  }
+
+  cardGithub{
+    position: relative;
+    top: -60px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+  }
+
+  cardLinkedin {
+    position: relative;
+    width: 90%;
+    top: -65px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+  }
+
+  .card-container-left {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-text2 {
+    position: relative;
+    left: 5px;
+    top: -40px;
+    width: 90vw;
+    justify-content: center;
+  }
+
+  cardInstagram {
+    position: relative;
+    top: -70px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+  }
+
+  .card-text3 {
+    position: relative;
+    left: 5px;
+    top: -45px;
+    width: 90vw;
+    justify-content: center;
+  }
+
+
+
+
 }
