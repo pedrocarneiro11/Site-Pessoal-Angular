@@ -13,7 +13,7 @@ export class CarouselMenuComponent implements OnInit {
     document.getElementById('carrousel').scrollBy(-5,0);
   }
   ScrolltoRight() {
-    document.getElementById('carrousel').scrollBy(5,0);
+    document.getElementById('carrousel').scrollBy(30,0);
   }
 
   ngOnInit(): void {

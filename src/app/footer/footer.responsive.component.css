@@ -1,0 +1,8 @@
+@media only screen and (min-width : 300px) and (max-width : 324px) {
+  .footer {
+    position: relative;
+    margin-bottom: 0;
+    height: 80px;
+  }
+}
+
