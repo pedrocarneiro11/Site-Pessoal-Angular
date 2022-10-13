@@ -1,6 +1,6 @@
-# SitePedro
+# Olá
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+Essa é a versão em Angular do meu site pessoal, com um menu carousel mostrando alguns dos meus projetos já publicados no meu Github :)
 
 ## Development server
 
