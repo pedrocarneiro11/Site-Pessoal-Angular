@@ -136,21 +136,21 @@ body {
 }
 
 .card:nth-child(5) {
-  background-image: url("./portfolio/Contador.JPG");
+  background-image: url("./portfolio/BuzzfeedQuiz.JPG");
   background-position: center top;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
 .card:nth-child(6) {
-  background-image: url("./portfolio/ToDoList.JPG");
+  background-image: url("./portfolio/Contador.JPG");
   background-position: center top;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
 .card:nth-child(7) {
-  background-image: url("./portfolio/BuzzfeedQuiz.JPG");
+  background-image: url("./portfolio/ToDoList.JPG");
   background-position: center top;
   background-size: 100% auto;
   background-repeat: no-repeat;
