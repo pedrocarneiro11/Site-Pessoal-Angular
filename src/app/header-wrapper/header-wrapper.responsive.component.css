@@ -50,10 +50,23 @@
   }
 }
 /* ------ RESPONSIVO ---  */
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width : 380px) and (max-width : 429px) {
+
+  .header{
+    margin-right: 0;
+    width: 100vw;
+  }
+  app-menu{
+    position: absolute;
+    top: 0;
+    right: -4%;
+  }
 
   h1{
-    font-size: 100px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   h2{
@@ -63,15 +76,17 @@
   .social-media {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
   }
 
   .social-media a {
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 50px;
-    font-size: 45px;
+    width: 100vw;
+    height: 35px;
+    font-size: 30px;
   }
 }
 
