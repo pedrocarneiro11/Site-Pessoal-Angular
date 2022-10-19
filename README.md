@@ -6,6 +6,8 @@ This is the Angular version of my personal website, with a carousel menu showing
 
 ## Development server
 
+Digite no terminal `ng serve' para inicializar o projeto em um servidor de desenvolvimento. E acesse-o no navegador digitando `http://localhost:4200/`
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
