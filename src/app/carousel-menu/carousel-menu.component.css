@@ -23,7 +23,7 @@ h1{
 body {
   margin: 0;
   background: linear-gradient(-45deg, #000805, #031866, #031866, #000805);
-  height: 290px;
+  height: 606px;
   width: 100%;
 }
 
@@ -69,15 +69,16 @@ body {
   width: 100%;
   justify-content: center;
   display: flex;
+  height: 70px;
 }
 
 
 .conteudo {
   position: relative;
   top:0;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  width: 90vw;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100vw;
 }
 
 .carrousel {
@@ -99,57 +100,106 @@ body {
 
 .card {
   scroll-snap-align: start;
-  min-height: 200px;
+  min-height: 250px;
   min-width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
-  scale: 1.01;
+  scale: 1;
 }
 
-.card:nth-child(1) {
+.card1 {
+  scroll-snap-align: start;
+  min-height: 515px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scale: 1;
   background-image: url("./portfolio/blogNextJS.jpg");
   background-position: center top;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
-.card:nth-child(2) {
+.card2 {
+  scroll-snap-align: start;
+  min-height: 515px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scale: 1;
   background-image: url("./portfolio/Calculadora.JPG");
   background-position: center top;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
-.card:nth-child(3) {
+.card3 {
+  scroll-snap-align: start;
+  min-height: 515px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scale: 1;
   background-image: url("./portfolio/MemoryGame.JPG");
   background-position: center top;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
-.card:nth-child(4) {
+.card4 {
+  scroll-snap-align: start;
+  min-height: 515px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scale: 1;
   background-image: url("./portfolio/TicTacToe.JPG");
   background-position: center top;
   background-size: 104% auto;
   background-repeat: no-repeat;
 }
 
-.card:nth-child(5) {
+.card5 {
+  scroll-snap-align: start;
+  min-height: 515px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scale: 1;
   background-image: url("./portfolio/BuzzfeedQuiz.JPG");
   background-position: center top;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
-.card:nth-child(6) {
+.card6 {
+  scroll-snap-align: start;
+  min-height: 515px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scale: 1;
   background-image: url("./portfolio/Contador.JPG");
   background-position: center top;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
-.card:nth-child(7) {
+.card7 {
+  scroll-snap-align: start;
+  min-height: 515px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scale: 1;
   background-image: url("./portfolio/ToDoList.JPG");
   background-position: center top;
   background-size: 100% auto;

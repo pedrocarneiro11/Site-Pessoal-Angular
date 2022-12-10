@@ -6,13 +6,13 @@
   </div>
   <div class="conteudo">
       <div class="carrousel" id="carrousel">
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
-          <div class="card"></div>
+          <div class="card1" *ngIf="count == 0"></div>
+          <div class="card2" *ngIf="count == 1"></div>
+          <div class="card3" *ngIf="count == 2"></div>
+          <div class="card4" *ngIf="count == 3"></div>
+          <div class="card5" *ngIf="count == 4"></div>
+          <div class="card6" *ngIf="count == 5"></div>
+          <div class="card7" *ngIf="count == 6"></div>
       </div>
   </div>
 </body>
